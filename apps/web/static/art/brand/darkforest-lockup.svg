@@ -1,0 +1,34 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 640 128"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Darkforest: Reset Protocol</title>
+  <desc id="desc">A fractured city above roots beside the Darkforest wordmark.</desc>
+  <g fill="#e5e2d8" transform="translate(16 0) scale(2)">
+    <path d="M6 28V12h13V4h14v8h13V9h12v8l-14 4-4-2-14 6-4-2L6 28Z" />
+    <path d="M6 35l16-5 4 2 14-6 4 2 14-4v6L48 54l-8-16-8 22-8-20-10 14-8-14Z" />
+  </g>
+  <g fill="#e5e2d8" aria-hidden="true">
+    <text
+      x="150"
+      y="69"
+      font-family="Arial Narrow,Roboto Condensed,sans-serif"
+      font-size="54"
+      font-stretch="condensed"
+      font-weight="900"
+      letter-spacing="5"
+    >DARKFOREST</text>
+    <text
+      x="153"
+      y="101"
+      font-family="Arial Narrow,Roboto Condensed,sans-serif"
+      font-size="15"
+      font-stretch="condensed"
+      font-weight="700"
+      letter-spacing="7"
+    >RESET PROTOCOL</text>
+  </g>
+  <path fill="#e5e2d8" d="M133 24h2v80h-2z" opacity=".28" />
+</svg>

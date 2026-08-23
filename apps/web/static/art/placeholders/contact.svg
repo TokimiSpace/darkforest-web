@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 720" role="img" aria-labelledby="title">
+  <title id="title">Unidentified contact placeholder</title>
+  <rect width="480" height="720" fill="#0d1515" />
+  <circle cx="240" cy="190" r="92" fill="#72817a" />
+  <path
+    d="M92 680V410q0-130 148-130t148 130v270Z"
+    fill="#263932"
+    stroke="#93ac9f"
+    stroke-width="10"
+  />
+  <text
+    x="240"
+    y="470"
+    fill="#e8eee9"
+    font-family="ui-monospace, monospace"
+    font-size="96"
+    text-anchor="middle"
+  >?</text>
+</svg>

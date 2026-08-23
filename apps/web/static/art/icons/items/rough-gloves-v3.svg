@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>粗手套</title>
+  <path d="M20 66V20q0-10 9-10h32q9 0 9 10v46Z" fill="#74836d" />
+  <path d="M68 48 83 33" stroke="#74836d" stroke-width="12" stroke-linecap="round" />
+  <path d="M18 66h54v16H18Z" fill="#aeb8b1" />
+  <path d="M37 54h16" stroke="#9fbd83" stroke-width="16" stroke-linecap="round" />
+  <path
+    d="M32.5 17v27M45 14v29M57.5 17v27"
+    stroke="#0a1215"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  <path d="M62 44l8-8M26 74h8" stroke="#0a1215" stroke-width="3" stroke-linecap="round" />
+</svg>

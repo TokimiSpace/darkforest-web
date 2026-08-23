@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>工作褲</title>
+  <path d="M22 10H74V88H57L48 34 39 88H22Z" fill="#4f5d52" />
+  <path d="M22 10h52v8H22Z" fill="#aeb8b1" />
+  <path d="M48 20v11M30 22l8 12M66 22l-8 12" stroke="#0a1215" stroke-width="3.5" />
+  <path d="M26 57h14v12H26ZM56 57h14v12H56Z" fill="#aeb8b1" />
+  <path d="M56 45h14v7H56Z" fill="#9fbd83" />
+  <path d="M30 63h6" stroke="#0a1215" stroke-width="3" />
+</svg>

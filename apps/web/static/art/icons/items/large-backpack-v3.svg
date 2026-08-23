@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>大背包</title>
+  <path d="M41 13q7-7 14 0" fill="none" stroke="#aeb8b1" stroke-width="5" />
+  <path d="M24 88V24q0-12 12-12h24q12 0 12 12v64Z" fill="#4f5d52" />
+  <path d="M24 30v-6q0-12 12-12h24q12 0 12 12v6Z" fill="#7d5c33" />
+  <path d="M26 30h44" stroke="#0a1215" stroke-width="3" />
+  <path d="M12 46h12v30H12ZM72 46h12v30H72Z" fill="#74836d" />
+  <path d="M38 33v51M58 33v51" stroke="#0a1215" stroke-width="3.5" />
+  <path d="M34 48h8v8h-8ZM54 48h8v8h-8Z" fill="#d9902f" />
+  <path d="M58 19l7 4" stroke="#0a1215" stroke-width="3" />
+</svg>

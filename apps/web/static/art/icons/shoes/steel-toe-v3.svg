@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>鋼頭鞋</title>
+  <path d="M8 64h80v14H62v-6H8Z" fill="#26322f" />
+  <path d="M10 64c0-11 8-17 22-19l12-5V12h34l6 52Z" fill="#7d5c33" />
+  <path d="M10 64c0-11 8-17 22-19c3 6 3 13 2 19Z" fill="#aeb8b1" />
+  <path
+    d="M48 20h14M48 28h14M48 36h14"
+    fill="none"
+    stroke="#0a1215"
+    stroke-width="4"
+    stroke-linecap="square"
+  />
+  <path d="M20 64h56" stroke="#d9902f" stroke-width="3" />
+  <path d="M18 56l8-4" fill="none" stroke="#0a1215" stroke-width="3" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,9 @@
+{
+  "name": "Darkforest: Reset Protocol — Local Demo",
+  "short_name": "Darkforest Demo",
+  "description": "Open-source browser client and local fixture demo.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#101318",
+  "theme_color": "#101318"
+}

@@ -1,0 +1,13 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 96 96"
+  fill="none"
+  stroke="#16d9d1"
+  stroke-width="6"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <title>CRAMPED 狹窄</title><path
+    d="M10 18v60M86 18v60M18 48h23m-10-10 10 10-10 10m47-10H55m10-10L55 48l10 10"
+  />
+</svg>

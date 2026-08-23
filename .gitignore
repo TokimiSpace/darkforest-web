@@ -1,0 +1,49 @@
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+*.mobileprovision
+
+# Dependencies and build output
+node_modules/
+vendor/
+_fresh/
+dist/
+build/
+coverage/
+.deno/
+
+# Test and browser output
+playwright-report/
+test-results/
+qa/**/output/
+qa/**/playwright/.cache/
+
+# Runtime data must never enter the public repository
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+replays/
+sim-out/
+
+# Private authoring and agent workspaces
+.art-tools/
+.art-work/
+.claude/
+.codegraph/

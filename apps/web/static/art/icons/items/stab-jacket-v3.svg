@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>防刺外套</title>
+  <path d="M36 8h24l3 12 19 6 4 24-14 4v30H24V54l-14-4 4-24 19-6Z" fill="#4f5d52" />
+  <path d="M48 8v12" stroke="#0a1215" stroke-width="3.5" />
+  <path d="M33 20h30" stroke="#0a1215" stroke-width="3" />
+  <path d="M28 38h40M28 54h40M28 70h40" stroke="#0a1215" stroke-width="3.5" />
+  <path d="M38 29h20" stroke="#d9902f" stroke-width="6" stroke-linecap="square" />
+  <path d="M62 76l8 5" stroke="#0a1215" stroke-width="3" />
+</svg>

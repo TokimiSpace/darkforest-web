@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071412" />
+      <stop offset="0.55" stop-color="#10231e" />
+      <stop offset="1" stop-color="#16140d" />
+    </linearGradient>
+    <radialGradient id="glow" cx="0.78" cy="0.22" r="0.65">
+      <stop stop-color="#21e6cd" stop-opacity="0.22" />
+      <stop offset="1" stop-color="#21e6cd" stop-opacity="0" />
+    </radialGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="14" /></filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)" />
+  <rect width="1200" height="630" fill="url(#glow)" />
+  <g opacity="0.13" stroke="#8ab9a8">
+    <path d="M0 92h1200M0 184h1200M0 276h1200M0 368h1200M0 460h1200M0 552h1200" />
+    <path
+      d="M92 0v630M184 0v630M276 0v630M368 0v630M460 0v630M552 0v630M644 0v630M736 0v630M828 0v630M920 0v630M1012 0v630M1104 0v630"
+    />
+  </g>
+  <circle cx="982" cy="105" r="120" fill="#20ddc7" opacity="0.08" filter="url(#soft)" />
+  <g transform="translate(878 74)" fill="none" stroke-linecap="round">
+    <circle cx="95" cy="95" r="72" stroke="#d4a752" stroke-width="5" />
+    <path d="M95 0v45M95 145v45M0 95h45M145 95h45" stroke="#d4a752" stroke-width="6" />
+    <path d="M52 95h86M95 52v86" stroke="#21e6cd" stroke-width="3" opacity="0.8" />
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="76" y="92" fill="#21e6cd" font-size="23" font-weight="700" letter-spacing="5"
+    >TOKIMISPACE · OPEN SOURCE</text>
+    <text x="72" y="224" fill="#f2f4e9" font-size="78" font-weight="800" letter-spacing="-2"
+    >DARKFOREST WEB</text>
+    <text x="76" y="282" fill="#d4a752" font-size="30" font-weight="700" letter-spacing="3"
+    >OPEN FRONTEND WORKBENCH</text>
+    <text x="76" y="366" fill="#cbd8d1" font-size="27"
+    >Fixed, sanitized local scenarios for frontend development.</text>
+    <text x="76" y="406" fill="#92aaa0" font-size="22"
+    >No matchmaking · No accounts · No production-service compatibility</text>
+    <g transform="translate(76 478)" font-size="20" font-weight="700" letter-spacing="1">
+      <rect width="182" height="52" rx="26" fill="#163b35" stroke="#21e6cd" />
+      <text x="91" y="33" text-anchor="middle" fill="#e4fff8">SOURCE</text>
+      <rect x="198" width="182" height="52" rx="26" fill="#2e2818" stroke="#d4a752" />
+      <text x="289" y="33" text-anchor="middle" fill="#fff1c8">FIXTURES</text>
+      <rect x="396" width="182" height="52" rx="26" fill="#163b35" stroke="#21e6cd" />
+      <text x="487" y="33" text-anchor="middle" fill="#e4fff8">QA + A11Y</text>
+    </g>
+  </g>
+  <path d="M0 590h1200" stroke="#d4a752" stroke-width="3" opacity="0.65" />
+</svg>

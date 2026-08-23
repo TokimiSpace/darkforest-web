@@ -1,0 +1,64 @@
+version = 1
+
+[[annotations]]
+path = [
+  ".github/**",
+  ".editorconfig",
+  ".env.example",
+  ".gitattributes",
+  ".gitignore",
+  "apps/**",
+  "deno.json",
+  "deno.lock",
+  "packages/**",
+  "public/**",
+  "qa/**",
+  "scripts/**",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 TokimiSpace contributors"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = [
+  "*.md",
+  "docs/**",
+  "packages/fixtures/src/scenarios/**",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 TokimiSpace contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [
+  "apps/web/locales/**",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 TokimiSpace contributors"
+SPDX-License-Identifier = "Apache-2.0 OR CC-BY-4.0"
+
+[[annotations]]
+path = [
+  "apps/web/static/**/*.avif",
+  "apps/web/static/**/*.gif",
+  "apps/web/static/**/*.jpg",
+  "apps/web/static/**/*.jpeg",
+  "apps/web/static/**/*.mp3",
+  "apps/web/static/**/*.ogg",
+  "apps/web/static/**/*.png",
+  "apps/web/static/**/*.wav",
+  "apps/web/static/**/*.webp",
+  "apps/web/static/**/*.svg",
+]
+precedence = "closest"
+SPDX-FileCopyrightText = "2026 TokimiSpace contributors"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = [
+  "apps/web/static/art/brand/**",
+  "apps/web/static/favicon.svg",
+]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 TokimiSpace contributors"
+SPDX-License-Identifier = "LicenseRef-TokimiSpace-Brand"

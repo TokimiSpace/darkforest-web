@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title">
+  <title id="title">Reset transition placeholder</title>
+  <rect width="1600" height="900" fill="#16110d" />
+  <path
+    d="m0 780 600-570 88 310 240-410 72 340 600-330"
+    fill="none"
+    stroke="#d4a85a"
+    stroke-width="24"
+  />
+  <text
+    x="800"
+    y="760"
+    fill="#f0e7d8"
+    font-family="ui-monospace, monospace"
+    font-size="72"
+    text-anchor="middle"
+  >RESET</text>
+</svg>

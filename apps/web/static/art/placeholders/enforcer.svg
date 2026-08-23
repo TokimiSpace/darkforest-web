@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1152" role="img" aria-labelledby="title">
+  <title id="title">Enforcer role placeholder</title>
+  <rect width="768" height="1152" fill="#151719" />
+  <rect x="264" y="180" width="240" height="240" rx="72" fill="#78898c" />
+  <path
+    d="M170 1010V600q0-160 214-160t214 160v410Z"
+    fill="#3b464b"
+    stroke="#ca735f"
+    stroke-width="12"
+  />
+  <path d="M220 650h328v210H220Z" fill="none" stroke="#c5d0d1" stroke-width="30" />
+  <text
+    x="384"
+    y="1080"
+    fill="#edf0f0"
+    font-family="ui-monospace, monospace"
+    font-size="44"
+    text-anchor="middle"
+  >ENFORCER</text>
+</svg>

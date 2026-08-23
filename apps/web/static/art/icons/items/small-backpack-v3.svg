@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>小背包</title>
+  <path d="M41 38q7-10 14 0" fill="none" stroke="#aeb8b1" stroke-width="5" />
+  <path d="M26 84V48q0-12 12-12h20q12 0 12 12v36Z" fill="#4f5d52" />
+  <path d="M64 42v40" stroke="#0a1215" stroke-width="3" />
+  <path d="M32 56h24v22H32Z" fill="#26322f" />
+  <path d="M32 52h24v10H32Z" fill="#aeb8b1" />
+  <path d="M44 62v7" stroke="#16d9d1" stroke-width="4" />
+  <path d="M32 44l6-3" stroke="#0a1215" stroke-width="3" />
+</svg>

@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>步槍</title>
+  <path d="M6 36H28V32H64V40H80V32H86V40H90V52H64V58H54L52 72H38L40 58H28V62H6Z" fill="#5d6968" />
+  <path d="M6 36H28V62H6Z" fill="#7d5c33" />
+  <path d="M28 32H64V38H28Z" fill="#aeb8b1" />
+  <path d="M50 32h6v26h-6Z" fill="#d9902f" />
+  <path d="M28 38v20M40 58h14" stroke="#0a1215" stroke-width="3" />
+  <path d="M12 44l7 3" stroke="#aeb8b1" stroke-width="3" />
+</svg>

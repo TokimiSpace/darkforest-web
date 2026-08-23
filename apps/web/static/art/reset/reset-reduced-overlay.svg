@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <title>Reset reduced-motion 600ms 淡色覆蓋</title><defs><linearGradient
+      id="fade"
+      x1="0"
+      y1="0"
+      x2="1"
+      y2="1"
+    ><stop stop-color="#d9dfd4" stop-opacity=".94" /><stop
+        offset=".52"
+        stop-color="#b9d9a3"
+        stop-opacity=".84"
+      /><stop offset="1" stop-color="#101614" stop-opacity=".94" /></linearGradient><pattern
+      id="grain"
+      width="24"
+      height="24"
+      patternUnits="userSpaceOnUse"
+    ><path
+        d="M0 12h24M12 0v24"
+        stroke="#5e6265"
+        stroke-width="1"
+        opacity=".12"
+      /></pattern></defs><rect width="1600" height="900" fill="url(#fade)" /><rect
+    width="1600"
+    height="900"
+    fill="url(#grain)"
+  /><path
+    d="M0 470c280-85 470 110 730 10s420 80 870-50"
+    fill="none"
+    stroke="#b68a45"
+    stroke-width="10"
+    opacity=".55"
+  />
+</svg>

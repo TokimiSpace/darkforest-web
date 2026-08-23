@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>高爾夫球桿</title>
+  <path d="M13 9H29V29L68 70L82 66L92 76L84 88L65 82L57 76L21 34H13Z" fill="#5d6968" />
+  <path d="M13 9H29V34H13Z" fill="#7d5c33" />
+  <path d="M65 70 82 66 92 76 84 88 65 82Z" fill="#aeb8b1" />
+  <path d="M19 34 61 78" stroke="#0a1215" stroke-width="3" />
+  <path d="M15 18h12M15 26h12" stroke="#d9902f" stroke-width="4" />
+  <path d="m72 74 12 6" stroke="#0a1215" stroke-width="3" />
+</svg>

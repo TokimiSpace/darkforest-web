@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>工具</title>
+  <path d="M57 35 67 45 27 85 12 90 5 80 17 75Z" fill="#5d6968" />
+  <path d="M81 31A11 11 0 1 1 71 21" fill="none" stroke="#5d6968" stroke-width="10" />
+  <path d="M55 37 17 75" stroke="#aeb8b1" stroke-width="3" />
+  <path d="M36 52 46 62 40 68 30 58Z" fill="#7d5c33" />
+  <path d="M31 57l10 10" stroke="#16d9d1" stroke-width="5" />
+  <path d="M11 84l6 3" stroke="#0a1215" stroke-width="3" />
+</svg>

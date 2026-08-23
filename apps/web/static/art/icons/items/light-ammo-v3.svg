@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>輕彈</title>
+  <path d="M20 36h22v42H20Z M54 42h22v42H54Z" fill="#aeb8b1" />
+  <path d="M20 36 31 20 42 36Z M54 42 65 26 76 42Z" fill="#d9902f" />
+  <path d="M20 72h22M54 78h22" stroke="#0a1215" stroke-width="3" />
+  <path d="M58 54l6 7" stroke="#0a1215" stroke-width="3" />
+</svg>

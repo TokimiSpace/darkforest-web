@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>腐敗食物</title>
+  <path
+    d="M18 34 74 24c8 12 11 27 6 39-5 13-20 19-35 16C30 76 20 66 17 54c-2-8-1-14 1-20Z"
+    fill="#4f5d52"
+  />
+  <path d="M14 26l38-7 2 10-38 7Z" fill="#aeb8b1" />
+  <path d="M60 14l16-3 2 9-14 9Z" fill="#aeb8b1" />
+  <path d="M22 28l2 8M20 39l50-9" stroke="#0a1215" stroke-width="3" />
+  <path
+    d="M42 46c7-7 17-3 18 5 1 9-8 14-16 11-8-2-8-10-2-16ZM60 63a3 3 0 1 0 .1 0ZM33 41a3 3 0 1 0 .1 0Z"
+    fill="#a94a32"
+  />
+  <path d="M27 69l8 4" stroke="#0a1215" stroke-width="3" />
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>板凳</title>
+  <path
+    d="M8 22H82L90 30V44H74L84 84H66L56 48H39L30 84H12L24 44H8Z"
+    fill="none"
+    stroke="#b7c0bb"
+    stroke-width="6"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+</svg>

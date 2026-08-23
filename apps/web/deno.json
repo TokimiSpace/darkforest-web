@@ -1,0 +1,68 @@
+{
+  "name": "@darkforest/web",
+  "version": "0.1.0-prealpha",
+  "exports": "./main.ts",
+  "deploy": {
+    "build": "deno task build",
+    "framework": "fresh"
+  },
+  "tasks": {
+    "dev": "deno run --allow-read=. --allow-env=PUBLIC_SITE_URL,SEO_INDEXABLE,SHOW_DEV_CONTROLS,FEEDBACK_URL,DENO_DEPLOYMENT_ID,GITHUB_SHA,CI_COMMIT_SHA,CI,FRESH_NO_UPDATE_CHECK --allow-net=127.0.0.1:8000,localhost:8000 --watch=main.ts,routes/,browser/,static/,lib/ main.ts",
+    "start": "deno serve --host=127.0.0.1 --port=8000 --allow-read=static,_fresh/client --allow-env=PUBLIC_SITE_URL,SEO_INDEXABLE,SHOW_DEV_CONTROLS,FEEDBACK_URL,DENO_DEPLOYMENT_ID,GITHUB_SHA,CI_COMMIT_SHA,CI,FRESH_NO_UPDATE_CHECK _fresh/server.js",
+    "client": "deno run --allow-read=browser,../../packages/protocol/src/runtime.js --allow-write=static scripts/emit_client.ts",
+    "client:check": "deno run --allow-read=browser,static,../../packages/protocol/src/runtime.js scripts/emit_client.ts --check",
+    "build": "deno task client:check && deno run --node-modules-dir=auto --allow-read --allow-write=.,../../node_modules --allow-env --allow-run --allow-sys --allow-ffi=../../node_modules npm:vite@7.3.6 build"
+  },
+  "lint": {
+    "rules": {
+      "tags": [
+        "fresh",
+        "recommended"
+      ]
+    }
+  },
+  "exclude": [
+    "**/_fresh/*"
+  ],
+  "imports": {
+    "@/": "./",
+    "@darkforest/client-data": "../../packages/client-data/src/mod.ts",
+    "@darkforest/fixtures": "../../packages/fixtures/src/mod.ts",
+    "@darkforest/protocol": "../../packages/protocol/src/mod.ts",
+    "@fresh/plugin-vite": "jsr:@fresh/plugin-vite@1.1.2",
+    "fresh": "jsr:@fresh/core@2.3.3",
+    "preact": "npm:preact@10.29.1",
+    "vite": "npm:vite@7.3.6"
+  },
+  "compilerOptions": {
+    "lib": [
+      "dom",
+      "dom.asynciterable",
+      "dom.iterable",
+      "deno.ns"
+    ],
+    "jsx": "precompile",
+    "jsxImportSource": "preact",
+    "jsxPrecompileSkipElements": [
+      "a",
+      "base",
+      "body",
+      "button",
+      "head",
+      "html",
+      "img",
+      "input",
+      "label",
+      "link",
+      "meta",
+      "noscript",
+      "option",
+      "script",
+      "select",
+      "source",
+      "style",
+      "template",
+      "title"
+    ]
+  }
+}

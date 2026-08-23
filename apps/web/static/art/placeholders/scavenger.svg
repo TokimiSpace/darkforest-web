@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 768 1152" role="img" aria-labelledby="title">
+  <title id="title">Scavenger role placeholder</title>
+  <rect width="768" height="1152" fill="#101918" />
+  <circle cx="384" cy="300" r="120" fill="#82988c" />
+  <path
+    d="M210 1010V610q0-170 174-170t174 170v400Z"
+    fill="#354a42"
+    stroke="#d4a85a"
+    stroke-width="12"
+  />
+  <path d="m240 640 288 190M528 640 240 830" stroke="#b7c7bd" stroke-width="28" />
+  <text
+    x="384"
+    y="1080"
+    fill="#e5eee8"
+    font-family="ui-monospace, monospace"
+    font-size="44"
+    text-anchor="middle"
+  >SCAVENGER</text>
+</svg>

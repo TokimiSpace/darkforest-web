@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>軟底鞋</title>
+  <path d="M8 74c2-8 8-16 24-20l26-4c14-2 24 4 28 12l2 12Z" fill="#74836d" />
+  <path d="M66 53h18v7H66Z" fill="#aeb8b1" />
+  <path d="M44 55l4 12M54 53l4 12" fill="none" stroke="#0a1215" stroke-width="3" />
+  <circle cx="77" cy="67" r="4" fill="#16d9d1" />
+  <path d="M18 64l9-5" stroke="#0a1215" stroke-width="3" />
+  <path d="M8 74h80v10H8Z" fill="#26322f" />
+  <path d="M28 74v10M48 74v10M68 74v10" stroke="#0a1215" stroke-width="3" />
+</svg>

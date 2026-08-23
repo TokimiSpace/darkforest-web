@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>菜刀</title>
+  <path d="M10 16H62L76 30V40H90V58H66L58 66H10Z" fill="#5d6968" />
+  <path d="M10 16H62L76 30V38H10Z" fill="#aeb8b1" />
+  <path d="M66 40H90V58H66Z" fill="#7d5c33" />
+  <path d="M17 24a5 5 0 1 0 0 10 5 5 0 0 0 0-10Z" fill="#0a1215" />
+  <path d="M64 20v44M74 42v14M82 42v14" stroke="#0a1215" stroke-width="3" />
+  <path d="M70 42v14" stroke="#d9902f" stroke-width="4" />
+</svg>

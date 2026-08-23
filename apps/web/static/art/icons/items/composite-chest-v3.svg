@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>複合胸甲</title>
+  <path d="M6 22 34 12h6l4 6h8l4-6h6l28 10-7 24-17 42H30L13 46Z" fill="#5d6968" />
+  <path d="M14 25l26-6v17l-21 6ZM82 25l-26-6v17l21 6Z" fill="#aeb8b1" />
+  <path d="M48 20v62" stroke="#0a1215" stroke-width="4" />
+  <path d="M24 62h48" stroke="#0a1215" stroke-width="3.5" />
+  <path d="M41 51h14v10H41Z" fill="#d9902f" />
+  <path d="M63 73l8-6" stroke="#0a1215" stroke-width="3" />
+</svg>

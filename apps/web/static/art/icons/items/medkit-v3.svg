@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>醫療包</title>
+  <path d="M34 32V19h28v13" fill="none" stroke="#aeb8b1" stroke-width="7" />
+  <path d="M10 32h76v46H10Z" fill="#4f5d52" />
+  <path d="M10 32h76v10H10Z" fill="#aeb8b1" />
+  <path d="M14 71h68" stroke="#0a1215" stroke-width="3" />
+  <path d="M26 33v44M70 33v44" stroke="#0a1215" stroke-width="4" />
+  <path d="M40 58h16M48 50v16" stroke="#9fbd83" stroke-width="7" stroke-linecap="square" />
+  <path d="M78 36h5" stroke="#0a1215" stroke-width="3" />
+</svg>

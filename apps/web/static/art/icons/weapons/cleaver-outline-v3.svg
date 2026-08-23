@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>菜刀</title>
+  <path
+    d="M10 16H62L76 30V40H90V58H66L58 66H10Z"
+    fill="none"
+    stroke="#b7c0bb"
+    stroke-width="6"
+    stroke-linejoin="round"
+    stroke-linecap="round"
+  />
+</svg>

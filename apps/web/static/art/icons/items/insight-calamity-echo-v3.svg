@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96">
+  <title>災變殘響</title>
+  <circle cx="48" cy="48" r="30" fill="#0a1215" />
+  <circle cx="48" cy="48" r="34" fill="none" stroke="#aeb8b1" stroke-width="8" />
+  <path d="M48 24c6 10 11 13 11 19a11 11 0 0 1-22 0c0-6 5-9 11-19Z" fill="#aeb8b1" />
+  <path d="M46 30l5 8-6 7 5 8" fill="none" stroke="#0a1215" stroke-width="3" />
+  <path
+    d="M40 58a10 10 0 0 0 16 0M35 63a16 16 0 0 0 26 0M30 66a22 22 0 0 0 36 0"
+    fill="none"
+    stroke="#16d9d1"
+    stroke-width="4"
+    stroke-linecap="round"
+  />
+  <path d="M21 69l8 8" stroke="#0a1215" stroke-width="3" />
+</svg>

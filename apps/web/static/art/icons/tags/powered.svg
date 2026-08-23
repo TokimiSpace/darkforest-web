@@ -1,0 +1,13 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 96 96"
+  fill="none"
+  stroke="#16d9d1"
+  stroke-width="6"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <title>POWERED 通電</title><rect x="12" y="12" width="72" height="72" rx="8" /><path
+    d="m54 19-25 35h18l-5 23 25-37H50Z"
+  />
+</svg>

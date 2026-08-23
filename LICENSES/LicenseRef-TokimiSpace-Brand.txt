@@ -1,0 +1,25 @@
+TokimiSpace Brand Asset Terms
+
+Copyright 2026 TokimiSpace contributors.
+
+The files expressly identified with the SPDX license identifier
+"LicenseRef-TokimiSpace-Brand" contain project names, logos, visual identity,
+or other brand assets. They are not licensed under Apache License 2.0 or
+Creative Commons Attribution 4.0 International.
+
+Permission is granted to reproduce and redistribute these files, unmodified,
+as part of a complete or partial source copy or mirror of this repository.
+Permission is also granted to display the unmodified files in an otherwise
+unmodified build solely to identify it as the original Darkforest Web project.
+
+A hosted copy not operated by TokimiSpace must conspicuously state that it is
+unofficial. No permission is granted to modify these files; to use them as the
+brand of a fork, product, service, token, event, or organization; or to imply
+TokimiSpace endorsement, certification, sponsorship, or official status. A
+fork with changed presentation should remove or replace these files.
+
+License-required attribution and rights available under applicable law are not
+restricted by these terms. All other rights are reserved. Separate written
+permission may be requested from ben@tokimi.space.
+
+These terms do not state or imply that any name or mark is registered.

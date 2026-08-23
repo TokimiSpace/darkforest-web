@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    "action_animation_state.js",
+    "ambient_music.js",
+    "app.js",
+    "bootstrap.js",
+    "character_motion.js",
+    "echo_oracle.js",
+    "html_escape.js",
+    "i18n.js",
+    "item_art.js",
+    "leaderboard.js",
+    "lobby_profile.js",
+    "lobby_profile_form.js",
+    "match_clock.js",
+    "match_connection.js",
+    "narrative_log.js",
+    "narrative_mode.js",
+    "protocol_runtime.js",
+    "site.webmanifest",
+    "styles.css",
+    "tactical_arena.js",
+    "tutorial.js",
+    "view_helpers.js"
+  ]
+}

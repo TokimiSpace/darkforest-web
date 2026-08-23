@@ -1,0 +1,46 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 1600 900"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Darkforest abstract field</title>
+  <desc id="desc">An original code-drawn placeholder for local fixture scenes.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#081111" />
+      <stop offset=".52" stop-color="#14251f" />
+      <stop offset="1" stop-color="#292117" />
+    </linearGradient>
+    <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
+      <path d="M80 0H0V80" fill="none" stroke="#86b69b" stroke-opacity=".11" />
+    </pattern>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)" />
+  <rect width="1600" height="900" fill="url(#grid)" />
+  <path
+    d="M0 730 300 570l180 84 280-220 200 138 260-270 380 228v370H0Z"
+    fill="#07100d"
+    opacity=".86"
+  />
+  <g fill="none" stroke="#d4a85a" stroke-width="8" opacity=".65">
+    <path d="M800 90v720M430 450h740" />
+    <circle cx="800" cy="450" r="170" />
+  </g>
+  <text
+    x="800"
+    y="420"
+    fill="#e7eee8"
+    font-family="ui-monospace, monospace"
+    font-size="42"
+    text-anchor="middle"
+  >LOCAL FIXTURE</text>
+  <text
+    x="800"
+    y="480"
+    fill="#d4a85a"
+    font-family="ui-monospace, monospace"
+    font-size="24"
+    text-anchor="middle"
+  >CODE-NATIVE PLACEHOLDER</text>
+</svg>

@@ -1,0 +1,404 @@
+{
+  "schemaVersion": 1,
+  "files": [
+    {
+      "path": "art/brand/darkforest-lockup.svg",
+      "license": "LicenseRef-TokimiSpace-Brand",
+      "source": "project-authored brand vector; trademark rights reserved",
+      "sha256": "9bf22e023d26030d99090c447736241ed3d7bae139b24485b8d2704d42fafa43",
+      "status": "approved"
+    },
+    {
+      "path": "art/brand/darkforest-mark.svg",
+      "license": "LicenseRef-TokimiSpace-Brand",
+      "source": "project-authored brand vector; trademark rights reserved",
+      "sha256": "cbcd4b37216d1dfd7dcce406804b15eedf2975573efc9c25760ed2317eb3c399",
+      "status": "approved"
+    },
+    {
+      "path": "art/brand/darkforest-mask-icon.svg",
+      "license": "LicenseRef-TokimiSpace-Brand",
+      "source": "project-authored brand vector; trademark rights reserved",
+      "sha256": "d9399d4a42032471f1fb462948aa950350eb72c031aef5bc9792b9687beb3af6",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/bandage-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "6deceb5a3b86ea73ff84dc58348067e723a27560d4eed47caee50d4b87e7e16b",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/cloth-jacket-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "3bdc646157c11590a08b6d4652955a6e0aab432cac47fb9c3903077f7c57cb32",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/composite-chest-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "3e6ab2c0b527dc93a6d08e26590a92c5c6d755385d65e64cd7c3646d0b535580",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/healthy-food-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "730e91b489af8e0a69867d6cfa533b6df243cd140cac9b2137f857b393f7f6e2",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/insight-calamity-echo-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "51b2033af4b8f6beccf825bed8676bede6b8eae8cd3590efcbd801bb918cb65b",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/insight-root-sense-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "48b4bdb1c3988a5061c8606850d9fb4ab157be824e6bcae873f64292f0dc2a98",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/labor-gloves-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "14787113564e0ec23299ea529a70c4b0591a76171e5403d18c9117a51fc0cfc4",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/large-backpack-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "9e2155c560bdb8ac4acac6ed4f7be3ec9de95a96dde68b7b948f6c54da6d7868",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/leather-gloves-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "b12ac91043d038d31e8c952462b3ffd943afb43f45e9f4c22c918bce2b41bb37",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/light-ammo-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "278e79e1b7b4ce34f47e450b6154cd7ebc83083a41eaf22e797fc009e2478eab",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/medkit-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "48add86adf0f2a5072fed55bd55c1cf6404bc4b7229c59bc9ccdfed48ee237cb",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/nvg-helmet-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "9f997077e0b7a747a78134bd1035495b612831c61ee8fd96bc3aefe10581f14e",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/rough-gloves-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "84492873536ae85bb6436480d4aa83c21feaff1f473f27e460539daa82baf942",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/scrap-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "6b283026c8fe533b5b57fbe1b33b110864c36fe8b52f6db5c9030c97ce3a9904",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/small-backpack-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "8c7947c248ed481e4c26eee28a3b7a7b86b28fa478facc660159c98e7a1ec75c",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/spoiled-food-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "72596ec2f8873dc6904c7923c6fdb4fd684553c8443750a4e91db89bd6205099",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/stab-jacket-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "5839db8c9373c263f17358215c3b6cf891062bbe38b3e5b8b8811b3ceb96b691",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/trap-scanner-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "4599981b00a835f74833101d1478a6a0a840fae293bf81cb71a4bd8f050bd1b0",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/work-helmet-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "448dda115d38abbaf115309ce3198ddc0d4f44edcf907fea49cfc76b63a084cb",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/items/work-pants-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "e396d9aafc3613580ed7ddf7dd73d1027f384604f8db0defff65dbd551451c01",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/shoes/soft-sole-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "1d228b5a0457c96f0998294eae312aa49a556815ecc52e19e19577ade82e0df2",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/shoes/steel-toe-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "14ff8d4dea9e52dfc6a6f17f49be2d8da808bc24c21ed096e5460d85ca2a7649",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/covered.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "1f457d343d1b17722db8ee11324d1b666bf16e9000aa1ccf749d4f23667cf8ae",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/cramped.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "60c1a0d2272bd6f553c2da529d6a1b7f1fe69375cb6b190fd43a866dec6faea6",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/dark.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "91bf9968efab9ae57199e43545282c2bcac9e99cafa8cd861abaa0beeef2b011",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/debris.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "c8d8d9d0fad67a52b10f5573b33c78d27910f39954f1e88c452b292af6516dbb",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/dense.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "3317973e587861d7acabdc7fced0c49ffedd02fb61fb973ab398b00c88176613",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/mud.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "73fa20731624b7d286f40993bdf51d88e7dfb404b75c4f8055ec7341795b408c",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/open.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "8de5779d86022c7d6d12da89000a5094f2f69a1784aa2c9b07f6402d31ac137f",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/powered.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "c2f3e298842244d2f96411c00936bbc62f0408d00c52a04fabb7aef118cb96d3",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/tags/wet.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "1537ae1b2c770547bd3eac8b69fff5578416b271f10b1c9ca70a7ce766ced00c",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/cleaver-outline-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "c22f1ca86b0d5fbfbef130bc79b8997d10d6b19443cb06d7dd04b7d24c640e5e",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/cleaver-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "05970916392fc248e9bbb877ba4d713e18fe126944d5a2452331ae5bd749a144",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/golf-club-outline-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "e40b2099a88ed1982b8a6803dfee9e917ea46e1b7682446c89cc20e737246274",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/golf-club-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "efaf06eb36afd86b10aa3b5ea0454ce693b17687389185489e2a0e0d271438d7",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/pistol-outline-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "4858d11e049cc7371d9178705e3e1b2666411bf8c9d7f8264605f8db8a108037",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/pistol-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "b65849f7daf2c6e98737344d867ba1b4509e03ff716fb1656fec17ef28f3700f",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/rifle-outline-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "f63f2d30514d71fd3352b0bde725c49c3015996b0291930c46ed1df3b5373ac0",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/rifle-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "42836a2d206f93808d76798b0713b690b05d4c452ddc452d7c2f2317bd45daca",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/stool-outline-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "abba19e2507fb5279e52d961de4882bb0e5dc202f7060ac2fe95d6ca248a9324",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/stool-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "4b4e3ae34859f1ac8b65009d16214188887864205ebcee30d91081e79bffd28e",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/tool-outline-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "14ce88455de03fae755e344c78510b4f9564a0ad5464cc5eca8492781c08a905",
+      "status": "approved"
+    },
+    {
+      "path": "art/icons/weapons/tool-v3.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "4d8e5e340b757e4fe47d1425f5a0ebbd574e1b7893a878beaa39dc142913fe76",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/contact.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native public demo placeholder",
+      "sha256": "3027b18855f4c11582a37b90f520110115301b6dd43a400114bf17195b7b30ed",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/courier.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native public demo placeholder",
+      "sha256": "d06abadea46820da65d14a83a249d0ea07baea692637dcf538fdfd34eb3388fe",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/enforcer.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native public demo placeholder",
+      "sha256": "764fe9b64020fc05853f10ab7a16b304d4e45af428c1ddd885006f9fe3d723af",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/event.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native public demo placeholder",
+      "sha256": "20972717df3c08d977bcf26216812cbd9914f927f1592f6cdac8310e1bca115e",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/reset.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native public demo placeholder",
+      "sha256": "697daa8a3eb7f503a42b08eb8d23c36df545bc2cb2ee77db2bf417ff778153b6",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/scavenger.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native public demo placeholder",
+      "sha256": "aded532ceb82ab6f97dbb2c9e38b3150422c2c2d2944be89dcfba585bc126f85",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/scene.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native public demo placeholder",
+      "sha256": "d74cb3f279b1c84f548d1e7893de09d8ecced6bd95b0e758d0bbe0ca45f5a778",
+      "status": "approved"
+    },
+    {
+      "path": "art/placeholders/social-card.png",
+      "license": "CC-BY-4.0",
+      "source": "project-authored export from docs/assets/social-card-source.svg",
+      "sha256": "61d3c53c18a3ca9a0eaad10df6b926ce7922c495f4da05c858a1b64a7dc35c0a",
+      "status": "approved"
+    },
+    {
+      "path": "art/reset/reset-map-fracture.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "cb5234cb95c2f55ef9415494949709b154091b00976537aaa77a236aa11229d5",
+      "status": "approved"
+    },
+    {
+      "path": "art/reset/reset-reduced-overlay.svg",
+      "license": "CC-BY-4.0",
+      "source": "project-authored code-native vector",
+      "sha256": "6694502714d3ea4d23baa68a9ae5e53c46dd24a6caff24fba1539518201ea970",
+      "status": "approved"
+    },
+    {
+      "path": "favicon.svg",
+      "license": "LicenseRef-TokimiSpace-Brand",
+      "source": "project-authored brand vector; trademark rights reserved",
+      "sha256": "b93600b41d57411f322001d241ab8540656d0ceb9973bed9a7f57481142d72a3",
+      "status": "approved"
+    }
+  ]
+}
