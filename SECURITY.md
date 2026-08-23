@@ -35,9 +35,10 @@ Obtain explicit permission from the relevant operator first.
 
 ## Supported versions
 
-Until the first tagged release, only the current default branch may receive security fixes. After
-releases begin, the support table will be maintained here. Forks and modified deployments are
-maintained by their operators.
+The current default branch and latest tagged pre-alpha release are the supported review targets.
+Security fixes land on `main`; maintainers may issue a replacement pre-alpha tag when a fix needs a
+stable download. Older pre-alpha tags do not receive long-term support. Forks and modified
+deployments are maintained by their operators.
 
 ## Security assumptions
 

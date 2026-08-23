@@ -7,6 +7,8 @@ may change incompatibly between minor releases.
 
 ## [Unreleased]
 
+## [0.1.0-prealpha] - 2026-08-24
+
 ### Added
 
 - Initial clean-history public extraction of the Darkforest browser client.
@@ -20,3 +22,6 @@ may change incompatibly between minor releases.
 - Public demo defaults to a local endpoint and does not require production credentials.
 - Publication checks reject known private paths, secrets, unapproved assets, and unsafe endpoint
   defaults.
+
+[Unreleased]: https://github.com/TokimiSpace/darkforest-web/compare/v0.1.0-prealpha...HEAD
+[0.1.0-prealpha]: https://github.com/TokimiSpace/darkforest-web/releases/tag/v0.1.0-prealpha
