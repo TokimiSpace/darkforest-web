@@ -1,160 +1,211 @@
-**Language:** **English** · [繁體中文](README.md)
+**Language:** [繁體中文](README.md) · **English**
 
 # Darkforest: Reset Protocol — Web Client
 
-The open-source browser client and local demo for **Darkforest: Reset Protocol**.
+**Understand and improve Darkforest's browser game UI through 12 sanitized, reproducible local
+scenarios.**
 
 ![Darkforest Web open frontend workbench](apps/web/static/art/placeholders/social-card.png)
 
-[Tokimi](https://tokimi.space/) · [Play the official game](https://darkforest.tw/) ·
-[Source repository](https://github.com/TokimiSpace/darkforest-web)
+[Tokimi](https://tokimi.space/) · [Play the official version](https://darkforest.tw/) ·
+[Explore open source](https://tokimi.space/en/open-source/) ·
+[Report an issue](https://github.com/TokimiSpace/darkforest-web/issues)
 
 ![Status: pre-alpha](https://img.shields.io/badge/status-pre--alpha-f59e0b?style=flat-square)
-![Runtime: Deno](https://img.shields.io/badge/runtime-Deno-111827?style=flat-square)
+![Scenarios: 12 fixtures](https://img.shields.io/badge/fixtures-12-21bfae?style=flat-square)
+![Languages: 6 locales](https://img.shields.io/badge/locales-6-21bfae?style=flat-square)
+![Runtime: Deno 2.5.6](https://img.shields.io/badge/Deno-2.5.6-111827?style=flat-square)
 ![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-2563eb?style=flat-square)
-![Content: CC BY 4.0](https://img.shields.io/badge/approved_content-CC_BY_4.0-16a34a?style=flat-square)
+![Approved content: CC BY 4.0](https://img.shields.io/badge/content-CC_BY_4.0-16a34a?style=flat-square)
 
 > [!IMPORTANT]
-> This repository contains the **frontend and a local, fixture-driven demo only**. It does not
-> contain the production match server, private game core, official service contract, live
-> operations, databases, deployment secrets, or unreleased content pipeline. It is pre-alpha
-> software and is not a self-hostable copy of the official game.
+> This is an **open-source frontend and local fixture demo**, not a complete game server. Production
+> matchmaking, accounts, the private game core, authoritative resolution, databases, operations
+> tooling, and the official service contract are not open sourced or claimed to be compatible. This
+> project is pre-alpha and is not a self-hostable official multiplayer game.
 
-## What is here
+## At a glance
 
-- The Fresh/Preact web shell and browser gameplay UI.
-- A standalone, sanitized public-demo schema and runtime parser (`packages/protocol`), intentionally
-  not compatible with the production service contract.
-- Manually curated presentation values (`packages/client-data`) without private source lineage,
-  unused tuning weights, or rule-engine implementation.
-- Twelve sanitized scenarios and a loopback-only mock server (`packages/fixtures`).
-- UI, accessibility, protocol, and publication-boundary checks.
-- Six interface locales and a versioned player-facing demo-copy snapshot: Traditional Chinese,
-  Simplified Chinese, English, Japanese, Korean, and Vietnamese.
+| What you can do here                                                              | What is deliberately absent                                         |
+| --------------------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Start the Fresh/Preact browser UI                                                 | Production matchmaking, player accounts, or sessions                |
+| Walk through HUD, combat, shop, rescue, and ending states with 12 fixed scenarios | The private game core, rule engine, or authoritative balance values |
+| Inspect the public-demo v1 schema and runtime parser                              | The production service contract or a compatibility promise          |
+| Verify six locales, responsive layouts, keyboard use, reduced motion, and axe     | Production data, replays, analytics, anti-cheat, or live operations |
+| Contribute without an account, token, or official endpoint                        | Production deployment, secrets, or the unreleased content pipeline  |
 
-The browser source also retains synthetic queue and spectator presentation states so contributors
-can inspect those frontend concepts. The local fixture server does not emit or operate those states,
-and they are not matchmaking, an account/session implementation, or a production-service contract.
+See [Public scope](docs/PUBLIC_SCOPE.md) and [Known limitations](docs/KNOWN_LIMITATIONS.md) for the
+complete boundary.
 
-Production matchmaking, authoritative resolution, anti-cheat controls, persistence, administration,
-analytics, and live-service integrations remain outside this repository. See
-[Public scope](docs/PUBLIC_SCOPE.md) for the complete boundary.
+## Start the local demo in 30 seconds
 
-The tools included here are the tools an independent contributor needs to rebuild and verify the
-declared frontend demo: emitter, build, frozen dependencies, local fixtures, browser QA,
-accessibility checks, asset verification, and publication checks. Production deployment, operations,
-balance, anti-cheat, analytics, and content-authoring tools stay private.
-
-## Architecture at a glance
-
-```mermaid
-flowchart LR
-  Browser[Browser UI<br/>apps/web] --> Contract[Client contract<br/>packages/protocol]
-  Browser --> Data[Public display data<br/>packages/client-data]
-  Browser <-->|WebSocket on 127.0.0.1| Mock[Fixture mock<br/>packages/fixtures]
-  Mock --> Fixtures[12 sanitized scenarios]
-  Official[Official service contract and private core<br/>not included or compatible]:::private
-  classDef private fill:#2b1b1b,stroke:#ef4444,color:#fff
-```
-
-The local demo does not contact `darkforest.tw` or another production endpoint. A downstream service
-must explicitly implement this repository's public-demo schema or provide its own adapter; that does
-not create compatibility with the official service. Read [Architecture](docs/ARCHITECTURE.md) and
-[Client contract](docs/CLIENT_CONTRACT.md) first.
-
-## Quick start
-
-Install [Deno](https://docs.deno.com/runtime/getting_started/installation/) and clone the
-repository:
+Install [Deno](https://docs.deno.com/runtime/getting_started/installation/) first. Project CI is
+pinned to **Deno 2.5.6**. Clone the repository, then open two terminals:
 
 ```sh
 git clone https://github.com/TokimiSpace/darkforest-web.git
 cd darkforest-web
 ```
 
-Start the loopback fixture server in one terminal:
+**Terminal A — start the loopback-only fixture server:**
 
 ```sh
 deno task mock
 ```
 
-Start the web app in a second terminal:
+**Terminal B — start the web app:**
 
 ```sh
 deno task dev
 ```
 
-Open `http://localhost:8000`. The default fixture endpoint is
-`ws://127.0.0.1:8788/ws?fixture=openingMegaCity`.
+Open
+[http://localhost:8000/?fixture=openingMegaCity](http://localhost:8000/?fixture=openingMegaCity).
+With dependencies cached, the demo is normally visible in about 30 seconds. The first run downloads
+the locked dependencies, so its duration depends on your network.
 
-Run the local quality gates:
+The entire local data flow is:
 
-```sh
-deno task check
-deno task test
-deno task build
-deno task ci
+```text
+browser http://localhost:8000
+   ↕ WebSocket
+fixture ws://127.0.0.1:8788/ws?fixture=openingMegaCity
 ```
 
-Commands run with the permissions declared by the workspace tasks. Review a task before granting
-wider Deno permissions.
+It does not silently contact `darkforest.tw`, analytics, remote fonts, translation services, or a
+production API. The mock server is local development support; do not expose it to the Internet.
 
-## Public-demo schema, not a game server
+## What you will see
 
-The protocol package describes messages used by this repository's browser and local fixtures. It is
-public-demo v1, not an extracted production version. It does not publish authoritative validation,
-game resolution, matchmaking, persistence, moderation, or abuse prevention. The fixture server is
-deterministic development support—not a reference implementation or security boundary.
+|                                                    Local scenario surface                                                     |                                                Reset map state                                                |                                                                              Public equipment art                                                                               |
+| :---------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| <img src="apps/web/static/art/placeholders/scene.svg" width="260" alt="Code-native placeholder for a local fixture scenario"> | <img src="apps/web/static/art/reset/reset-map-fracture.svg" width="260" alt="Reset map fracture state layer"> | <img src="apps/web/static/art/icons/items/medkit-v3.svg" width="110" alt="Medkit icon"> <img src="apps/web/static/art/icons/weapons/rifle-v3.svg" width="110" alt="Rifle icon"> |
+|                                     Fixed-data presentation, not a production screenshot                                      |                                     Inspect state changes and legibility                                      |                                                                   Manifest-approved, code-native demo assets                                                                    |
 
-Some message shapes exist only to render synthetic product-concept states in the client, including
-queue and spectator-waiting surfaces. The committed fixture flow does not send them. Their presence
-does not imply that a corresponding service, provider integration, or official compatibility is
-included.
+The frontend includes lobby and profile drafts, a tactical HUD, fog and routes, equipment and
+durability, combat previews, downed rescue, a shop, Echo/Arbora presentation, endings, tutorial,
+record surfaces, accessibility settings, and a UI Lab. Some queue and spectator surfaces are only
+synthetic product concepts; the fixture server does not emit or operate those states.
 
-The contract is currently pre-alpha. Breaking changes increment its exported protocol version and
-are recorded in this repository's changelog. See [Client contract](docs/CLIENT_CONTRACT.md).
+> [!NOTE]
+> The images above are approved local-demo assets from this repository, not the production art pack.
+> Production artwork, promo-derived material, unreleased narrative libraries, and raw authoring
+> sources are not included.
 
-## Assets and project identity
+## Architecture and trust boundary
 
-Only demo assets with an approved provenance record may be committed. A curated, licensed
-player-facing copy snapshot is included; unreleased authored content libraries, production artwork,
-raw source art, promotional-video-derived material, third-party NFT/branded media, and unreviewed
-external material are excluded. Every distributable asset must be listed in the reviewed registry
-and its generated manifest with a SHA-256 hash, publication status, and license. See
-[Asset provenance](docs/ASSET_PROVENANCE.md) and [AI-assisted content](docs/AI_ASSISTED_CONTENT.md).
+![Darkforest Web local-demo architecture and publication boundary](docs/assets/readme-architecture.svg)
 
-The software license does not grant permission to present a fork as an official Tokimi or Darkforest
-release. See [Project identity](TRADEMARKS.md).
+The browser, fixture server, and `packages/protocol` share one standalone public-demo v1 schema.
+Every WebSocket frame crosses a bounded structural parser before entering the UI. That improves
+handling of untrusted input, but it does **not** replace server-side authorization, semantic
+validation, anti-cheat, or a production security design.
 
-## Security and privacy
+Any other service must explicitly implement this public-demo schema or provide its own adapter. That
+does not create compatibility with the official service. Read [Architecture](docs/ARCHITECTURE.md)
+and the [Client contract](docs/CLIENT_CONTRACT.md) for details.
 
-- Report vulnerabilities privately through
-  [GitHub Security Advisories](https://github.com/TokimiSpace/darkforest-web/security/advisories/new);
-  do not disclose an unpatched issue publicly.
-- Do not test `darkforest.tw` or any production service without explicit authorization.
-- The local demo is designed to run without production credentials, analytics, or a user account.
-- A production integration needs its own authentication design, Content Security Policy, privacy
-  review, rate limiting, and server-side authorization.
+## 12 fixtures, 6 locales
 
-Read [Security policy](SECURITY.md), [Privacy boundary](docs/PRIVACY.md), and
-[Known limitations](docs/KNOWN_LIMITATIONS.md).
+| Group                | Fixed scenarios                                                                                        |
+| -------------------- | ------------------------------------------------------------------------------------------------------ |
+| Opening and actions  | `openingMegaCity`, `combatSkirmish`, `downedRescue`, `darkforestHazard`, `shopVisit`, `rejectionDrill` |
+| Narrative and review | `echoMode`, `legacyPrompt`, `replaySample`                                                             |
+| Endings              | `finalReckoning`, `finalCovenant`, `finalAllDead`                                                      |
+
+These fixtures are synthetic, deterministic, sanitized UI examples—not production replays or
+reproductions of private algorithms. See the current list on the mock server home page or at
+`http://127.0.0.1:8788/fixtures`.
+
+The interface ships with:
+
+- 繁體中文 `zh-TW` (default)
+- 简体中文 `zh-CN`
+- English `en`
+- 日本語 `ja`
+- 한국어 `ko`
+- Tiếng Việt `vi`
+
+The six-language copy is a versioned public-demo snapshot. It does not promise that the official
+service uses the same wording, values, or content.
+
+## Repository map
+
+| Path                    | Purpose                                                                  |
+| ----------------------- | ------------------------------------------------------------------------ |
+| `apps/web/`             | Fresh/Preact routes, browser UI, styles, and six locale catalogs         |
+| `packages/protocol/`    | Public-demo types, units, and runtime parser                             |
+| `packages/client-data/` | Manually curated values that the public UI needs to display              |
+| `packages/fixtures/`    | 12 sanitized scenarios and the loopback-only mock server                 |
+| `qa/game-e2e/`          | Playwright and axe verification across desktop, portrait, and landscape  |
+| `scripts/`              | Build, asset, publication-boundary, and generated-output checks          |
+| `docs/`                 | Architecture, privacy, licensing, provenance, and public-scope documents |
+
+## Common commands
+
+| Command           | Purpose                                                                    |
+| ----------------- | -------------------------------------------------------------------------- |
+| `deno task mock`  | Start the fixed fixture server on `127.0.0.1:8788`                         |
+| `deno task dev`   | Start the development web app on `localhost:8000`                          |
+| `deno task check` | Format, lint, types, generated client, and tests                           |
+| `deno task test`  | Unit and publication-gate tests                                            |
+| `deno task build` | Create a production-mode frontend bundle (not an official-game deployment) |
+| `deno task ci`    | Run the complete public-scope quality gate                                 |
+
+Commands should use only the Deno permissions declared by workspace tasks. Read `deno.json` before
+granting wider permissions.
+
+To run the isolated browser QA suite:
+
+```sh
+cd qa/game-e2e
+npm ci --ignore-scripts --omit=optional
+npm audit --audit-level=high
+npm test
+```
+
+QA covers all 12 fixtures, six locales, core interaction paths, selected desktop/portrait/landscape
+viewports, critical axe violations, reduced motion, horizontal overflow, and blocking non-loopback
+requests. See [qa/game-e2e/README.md](qa/game-e2e/README.md) for details.
 
 ## Contributing
 
-Issues and pull requests are welcome. Start with [CONTRIBUTING.md](CONTRIBUTING.md) and the
-[Code of Conduct](CODE_OF_CONDUCT.md). Contributions must stay inside the public boundary and
-include evidence for tests, accessibility, security, and asset provenance when applicable.
+1. Read the [Contribution guide](CONTRIBUTING.md), [Public scope](docs/PUBLIC_SCOPE.md), and
+   [Code of Conduct](CODE_OF_CONDUCT.md).
+2. Pick a [public issue](https://github.com/TokimiSpace/darkforest-web/issues), or propose a focused
+   change before starting a large patch.
+3. Stay local-first; do not add production endpoints, private sources, real player data, or material
+   with unclear rights.
+4. Run `deno task ci` before submitting. UI changes should also include keyboard, touch, responsive,
+   and accessibility evidence.
+
+Open an issue before changing the protocol, public/private boundary, authentication assumptions,
+licensing, or asset policy.
+
+## Security, privacy, and asset rights
+
+- Report vulnerabilities privately through
+  [GitHub Security Advisories](https://github.com/TokimiSpace/darkforest-web/security/advisories/new).
+  Do not disclose an unpatched issue publicly.
+- Do not test `darkforest.tw` or another production service without written authorization.
+- The local demo needs no production credentials, analytics, or player account. It stores only the
+  local UI drafts, preferences, and bounded session-prompt state listed in the
+  [Privacy boundary](docs/PRIVACY.md).
+- Every distributable asset needs source, license, SHA-256, and approval status. See
+  [Asset provenance](docs/ASSET_PROVENANCE.md) and
+  [AI-assisted content](docs/AI_ASSISTED_CONTENT.md).
+- Forks may truthfully identify their source, but must not imply an official Tokimi or Darkforest
+  release. See [Project identity](TRADEMARKS.md).
 
 ## Licensing
 
 This is a path-specific multi-license repository:
 
-- software, protocol types, build configuration, tests, CI, and tooling: **Apache-2.0**;
+- software, protocol types, build, tests, CI, and tooling: **Apache-2.0**;
 - locale catalogs: **Apache-2.0 OR CC BY 4.0**;
 - approved documentation, fixture narrative, and non-brand demo content: **CC BY 4.0**;
-- third-party material: its own license and attribution, and only when explicitly approved in the
-  manifest.
+- brand files and third-party content: their file-specific terms, with no general branding grant.
 
 See [LICENSES.md](LICENSES.md) for the authoritative scope, [Commercial use](docs/COMMERCIAL_USE.md)
-for practical boundaries, [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for dependency and
-attribution policy, and [TRADEMARKS.md](TRADEMARKS.md) for the separate project-identity boundary.
+for practical boundaries, [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for dependencies and
+attribution policy, and [TRADEMARKS.md](TRADEMARKS.md) for project identity.

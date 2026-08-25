@@ -1,0 +1,116 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1200"
+  height="520"
+  viewBox="0 0 1200 520"
+  role="img"
+  aria-labelledby="title desc"
+>
+  <title id="title">Darkforest Web local-demo architecture and publication boundary</title>
+  <desc id="desc"
+  >The browser UI uses a public demo contract, curated client data, and twelve local fixtures over a loopback WebSocket. Matchmaking, accounts, the production service contract, and the private game core are outside this repository.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071412" />
+      <stop offset="0.62" stop-color="#10231e" />
+      <stop offset="1" stop-color="#17140d" />
+    </linearGradient>
+    <linearGradient id="public-card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#163b35" />
+      <stop offset="1" stop-color="#102a26" />
+    </linearGradient>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0 0L8 4L0 8Z" fill="#21e6cd" />
+    </marker>
+  </defs>
+
+  <rect width="1200" height="520" rx="24" fill="url(#background)" />
+  <g opacity="0.12" stroke="#8ab9a8">
+    <path d="M0 86h1200M0 172h1200M0 258h1200M0 344h1200M0 430h1200" />
+    <path
+      d="M100 0v520M200 0v520M300 0v520M400 0v520M500 0v520M600 0v520M700 0v520M800 0v520M900 0v520M1000 0v520M1100 0v520"
+    />
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="64" y="61" fill="#21e6cd" font-size="18" font-weight="700" letter-spacing="4"
+    >LOCAL DEMO · PUBLIC BOUNDARY</text>
+    <text x="64" y="95" fill="#eef4ef" font-size="26" font-weight="700"
+    >Everything needed to understand and verify the browser demo</text>
+
+    <g transform="translate(62 142)">
+      <rect
+        width="236"
+        height="112"
+        rx="16"
+        fill="url(#public-card)"
+        stroke="#21e6cd"
+        stroke-width="2"
+      />
+      <text x="24" y="38" fill="#8af9ec" font-size="14" font-weight="700" letter-spacing="2"
+      >BROWSER</text>
+      <text x="24" y="70" fill="#f2f4e9" font-size="23" font-weight="700">Fresh + Preact UI</text>
+      <text x="24" y="94" fill="#a9bdb5" font-size="14">routes · HUD · accessibility</text>
+    </g>
+
+    <path d="M310 198h66" fill="none" stroke="#21e6cd" stroke-width="3" marker-end="url(#arrow)" />
+
+    <g transform="translate(390 142)">
+      <rect
+        width="250"
+        height="112"
+        rx="16"
+        fill="url(#public-card)"
+        stroke="#21e6cd"
+        stroke-width="2"
+      />
+      <text x="24" y="38" fill="#8af9ec" font-size="14" font-weight="700" letter-spacing="2"
+      >PUBLIC-DEMO V1</text>
+      <text x="24" y="70" fill="#f2f4e9" font-size="23" font-weight="700">Client contract</text>
+      <text x="24" y="94" fill="#a9bdb5" font-size="14">types · parser · safe boundary</text>
+    </g>
+
+    <path d="M652 198h66" fill="none" stroke="#21e6cd" stroke-width="3" marker-end="url(#arrow)" />
+
+    <g transform="translate(732 142)">
+      <rect
+        width="268"
+        height="112"
+        rx="16"
+        fill="url(#public-card)"
+        stroke="#21e6cd"
+        stroke-width="2"
+      />
+      <text x="24" y="38" fill="#8af9ec" font-size="14" font-weight="700" letter-spacing="2"
+      >LOOPBACK ONLY</text>
+      <text x="24" y="70" fill="#f2f4e9" font-size="23" font-weight="700">12 local fixtures</text>
+      <text x="24" y="94" fill="#a9bdb5" font-size="14">127.0.0.1 · deterministic</text>
+    </g>
+
+    <g transform="translate(390 298)">
+      <rect width="250" height="90" rx="16" fill="#292514" stroke="#d4a752" stroke-width="2" />
+      <text x="24" y="35" fill="#f1cc7e" font-size="14" font-weight="700" letter-spacing="2"
+      >CURATED DISPLAY DATA</text>
+      <text x="24" y="64" fill="#fff1c8" font-size="19" font-weight="700"
+      >player-visible values</text>
+    </g>
+    <path d="M515 286v-20" stroke="#d4a752" stroke-width="3" marker-end="url(#arrow)" />
+
+    <path d="M1048 119v300" stroke="#ef705f" stroke-width="2" stroke-dasharray="9 9" />
+    <text x="1070" y="145" fill="#ef9184" font-size="13" font-weight="700" letter-spacing="2"
+    >NOT INCLUDED</text>
+    <text x="1070" y="181" fill="#d8c8c4" font-size="15">matchmaking</text>
+    <text x="1070" y="211" fill="#d8c8c4" font-size="15">accounts</text>
+    <text x="1070" y="241" fill="#d8c8c4" font-size="15">production contract</text>
+    <text x="1070" y="271" fill="#d8c8c4" font-size="15">private game core</text>
+
+    <g transform="translate(62 432)">
+      <circle cx="8" cy="8" r="8" fill="#21e6cd" />
+      <text x="28" y="14" fill="#cbd8d1" font-size="17">No production credentials</text>
+      <circle cx="290" cy="8" r="8" fill="#21e6cd" />
+      <text x="310" y="14" fill="#cbd8d1" font-size="17">No official endpoints</text>
+      <circle cx="546" cy="8" r="8" fill="#21e6cd" />
+      <text x="566" y="14" fill="#cbd8d1" font-size="17">Pre-alpha contract</text>
+    </g>
+  </g>
+</svg>
