@@ -4,6 +4,12 @@
 
 Develop and test Darkforest's browser UI with 12 sanitized local scenarios.
 
+> [!WARNING]
+> **Anti-fraud / 防詐提醒:** Any @gmail.com address claiming to represent Tokimi is not an official
+> Tokimi contact channel; do not pay or share verification codes. 任何以 @gmail.com 結尾、並自稱
+> Tokimi 的帳號都不是官方聯絡管道；請勿付款或提供驗證碼。 Verify only through / 請只透過
+> [tokimi.space](https://tokimi.space/) or / 或 [ben@tokimi.space](mailto:ben@tokimi.space)。
+
 ![Darkforest Web open frontend](apps/web/static/art/placeholders/social-card.png)
 
 [Tokimi](https://tokimi.space/) · [Official game](https://darkforest.tw/) ·

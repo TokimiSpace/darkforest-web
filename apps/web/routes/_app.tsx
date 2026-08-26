@@ -1,5 +1,6 @@
 import { PROTOCOL_VERSION } from "@darkforest/protocol";
 import type { PageProps } from "fresh";
+import OfficialIdentityNotice from "@/components/official_identity_notice.tsx";
 import SiteFooter from "@/components/site_footer.tsx";
 import PublicDemoNotice from "@/components/public_demo_notice.tsx";
 import {
@@ -81,6 +82,7 @@ export default function Document({ Component, url }: PageProps) {
         <a class="skip-link" href="#main-content" data-i18n="common.skip">
           跳到主要內容
         </a>
+        <OfficialIdentityNotice />
         <PublicDemoNotice />
         <Component />
         {isLobby ? null : <SiteFooter pathname={pathname} />}

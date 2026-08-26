@@ -4,6 +4,13 @@
 
 用 12 組已清理的本機情境，開發與測試 Darkforest 瀏覽器遊戲介面。
 
+> [!WARNING]
+> **防詐提醒 / Anti-fraud:** 任何以 @gmail.com 結尾、並自稱 Tokimi
+> 的帳號都不是官方聯絡管道；請勿付款或提供驗證碼。 Any @gmail.com address claiming to represent
+> Tokimi is not an official Tokimi contact channel; do not pay or share verification codes. 請只透過
+> / Verify only through [tokimi.space](https://tokimi.space/) 或 / or
+> [ben@tokimi.space](mailto:ben@tokimi.space)。
+
 ![Darkforest Web 開源前端](apps/web/static/art/placeholders/social-card.png)
 
 [Tokimi](https://tokimi.space/) · [官方遊戲](https://darkforest.tw/) ·
